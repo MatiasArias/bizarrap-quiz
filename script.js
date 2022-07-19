@@ -35,7 +35,7 @@ function leerArchivo(texto, separador=';',omitirEncabezado=false) {
     .map(l => l.split(separador));
   }
 try {
-    console.log(leerCsv('id,nombre'))
+    console.log(leerCsv('id;nombre\n1001;Oliva\n1002;Julio'));
 } catch (e) {
     console.log(`Error: ${e.message}`)
 }
