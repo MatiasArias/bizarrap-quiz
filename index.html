@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>BZRP QUIZ</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1 class="header__name-quiz">BIZARRAP SESSIONS QUIZ</h1>
+            <p class="header__info black">NIVEL FACIL</p>
+            <p class="header__info">SCORE: 0</p>
+        </div>
+    </header>
+    <div class="contenedor-question">
+        <div class="progressbar-grey">
+            <div class="progressbar-color" id="progressbar"></div>
+        </div>
+        <p class="lyrics">Cancion</p>
+    </div>
+    <div class="cont-answer">
+        <div class="cont-answer__answer answer1">
+            <p id="answer1">Respuesta correcta</p>
+        </div>
+        <div class="cont-answer__answer answer2">
+            <p id="answer2">Respuesta</p>
+        </div>
+        <div class="cont-answer__answer answer3">
+            <p id="answer3">Respuesta incorrecta</p>
+        </div>
+        <div class="cont-answer__answer answer4">
+            <p id="answer4">Respuesta</p>
+        </div>
+    </div>
+    <footer>
+        <p>Desarrollado por:</p>
+        <a href="http://www.github.com/MatiasArias">Matias Arias</a>
+    </footer>
+    <input type="file" id="sessions" hidden="true" value="sessions.csv">
+<script src="script.js"></script>
+</body>
+
+</html>
