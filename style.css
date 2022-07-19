@@ -84,6 +84,7 @@ body {
     box-shadow: 2px 5px 5px black;
     width: 95%;
     max-width: 1000px;
+    
 }
 .cont-answer__answer:hover{
     background-color: #cccccc;

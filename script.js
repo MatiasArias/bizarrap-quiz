@@ -42,3 +42,4 @@ try {
 readSessions();
 startLyrics();
 startTimer();
+
