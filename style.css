@@ -97,6 +97,9 @@ body {
     background-color: red;
     box-shadow: 2px 5px 5px #440000
 }
+.lyrics{
+    margin: 1em;
+}
 footer {
     color: #ffffff;
     display: flex;
