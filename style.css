@@ -35,15 +35,19 @@ body {
 .black{
     font-weight: 600;
 }
+.game{
+
+}
 .contenedor-question {
     background-color: #81b71a;
     margin: 10px;
     border-radius: 20px;
-    height: 300px;
+    height: auto;
+    min-height: 200px;
     opacity: 0.95;
     display: flex;
     flex-direction: column;
-
+    word-wrap: break-word;
 }
 
 .lyrics {
@@ -55,7 +59,7 @@ body {
     margin: auto;
     color: #fff;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .progressbar-grey {
@@ -85,7 +89,7 @@ body {
     box-shadow: 2px 5px 5px black;
     width: 95%;
     max-width: 1000px;
-    
+    cursor: pointer;
 }
 .cont-answer__answer:hover{
     background-color: #cccccc;

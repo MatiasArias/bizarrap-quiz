@@ -15,9 +15,13 @@ async function startTimer() {
         time(value);
         value -= 5;
         await delay(1);
+        if(value==0){
+            reiniciar(true);
+        }
         if(suspender_botones){
             break
         }
+        
     };
 }
 const CSVToArray = (data, delimiter = ',', omitFirstRow = false) =>
@@ -83,8 +87,10 @@ function startGame(){
     
 }
 suspender_botones=false;
+finish=false;
+
 function validationAnswer(numberAnswer){
-    finish=false;
+    
     if (suspender_botones) {
         return;
       }
@@ -94,6 +100,7 @@ function validationAnswer(numberAnswer){
         var ans = document.getElementById(`cont-answer${numberAnswer}`);
         ans.classList.add("correct-answer")
         score++;
+        finish=false;
     }
     else{
         console.log("Respuesta Incorrecta")
