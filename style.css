@@ -1,5 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
     opacity: 1;
     position: relative;
     text-align: center;
-    margin-bottom: 0;
+    margin: 10px;
 }
 .header__info{
     color: #fff;
@@ -54,7 +55,7 @@ body {
     margin: auto;
     color: #fff;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 .progressbar-grey {
@@ -105,6 +106,90 @@ body {
 }
 .lyrics{
     margin: 1em;
+}
+.game{
+    display:none;
+}
+.start{
+    background-color: #81b71a;
+    margin: 10px;
+    border-radius: 20px;
+    height:max-content;
+    opacity: 0.999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.start img{
+    height: 200px;
+    cursor: pointer;
+}
+.start a{
+    display: flex;
+    height:min-content;
+}
+.button-startgame{
+    background-color: #2f6e92;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 40px;
+    margin: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+}
+
+.gameOver h3{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding: 30px 0;
+}
+.gameOver{
+    background-color: #81b71a;
+    margin: 10px;
+    border-radius: 20px;
+    height:max-content;
+    opacity: 0.999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    padding: 10px;
+}
+
+.button-retry{
+    background-color: #2f6e92;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 15px 40px;
+    margin: 10px auto;
+    border-radius: 20px;
+    max-width: 150px;
+    font-size:15px;
+}
+.button-retry p{
+    text-align: center;
+}
+.score{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding: 30px 0;
+}
+.button-startgame:hover{
+    cursor:pointer;
+}
+.button-retry:hover{
+    cursor:pointer;
+}
+.gameOver{
+    display: none;
+}
+header #score{
+    display:none;
 }
 footer {
     color: #ffffff;
