@@ -97,6 +97,12 @@ body {
     background-color: red;
     box-shadow: 2px 5px 5px #440000
 }
+.wrong-answer:hover {
+    background-color: red;
+}
+.correct-answer:hover{
+    background-color: green;
+}
 .lyrics{
     margin: 1em;
 }

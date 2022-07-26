@@ -18,7 +18,7 @@
         <div class="header">
             <h1 class="header__name-quiz">BIZARRAP SESSIONS QUIZ</h1>
             <p class="header__info black"></p>
-            <p class="header__info">SCORE: 0</p>
+            <p class="header__info" id="score">SCORE: </p>
         </div>
     </header>
     <div class="contenedor-question">
@@ -28,16 +28,16 @@
         <p class="lyrics" id="lyrics">Cancion</p>
     </div>
     <div class="cont-answer">
-        <div class="cont-answer__answer answer1">
+        <div class="cont-answer__answer" id="cont-answer1" onclick="validationAnswer(1)">
             <p id="answer1">Respuesta correcta</p>
         </div>
-        <div class="cont-answer__answer answer2">
+        <div class="cont-answer__answer" id="cont-answer2"  onclick="validationAnswer(2)">
             <p id="answer2">Respuesta</p>
         </div>
-        <div class="cont-answer__answer answer3">
+        <div class="cont-answer__answer" id="cont-answer3"  onclick="validationAnswer(3)">
             <p id="answer3">Respuesta incorrecta</p>
         </div>
-        <div class="cont-answer__answer answer4">
+        <div class="cont-answer__answer" id="cont-answer4"  onclick="validationAnswer(4)">
             <p id="answer4">Respuesta</p>
         </div>
     </div>
